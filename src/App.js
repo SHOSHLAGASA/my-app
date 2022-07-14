@@ -4,9 +4,9 @@ import Music from './images/music.JPG'
 
 function App() {
   return (
-    <div>
+    <div className='music'>
       <Header />
-     <img src= {Music}  alt="Music" height={200} width={200}/>
+     <img src= {Music}  alt="Music" height={250} width={800}/>
     </div>
   );
 }
