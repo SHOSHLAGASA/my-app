@@ -1,14 +1,20 @@
-import Header from './components/Header'
+// import React, {useState} from 'react'
+import Header from './components/header'
+import Main from './components/main'
 import './App.css';
-import Music from './images/music.JPG'
+
+
+
 
 function App() {
   return (
-    <div className='music'>
+    <div>
       <Header />
-     <img src= {Music}  alt="Music" height={250} width={800}/>
+      <Main />
+     {/* <img  className='music' src= {Music}  alt="Music" height={250} width={800}/> */}
     </div>
   );
 }
 
+// setState(newState);
 export default App;
