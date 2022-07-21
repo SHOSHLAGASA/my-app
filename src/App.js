@@ -1,7 +1,9 @@
 // import React, {useState} from 'react'
 import Header from './components/header'
 import Main from './components/main'
+import Axios from "axios";
 import './App.css';
+
 
 
 
@@ -9,9 +11,9 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Header />
+      <Header title="Tickets to Shtetl Band"/>
       <Main />
-     {/* <img  className='music' src= {Music}  alt="Music" height={250} width={800}/> */}
+      <Axios />
     </div>
   );
 }
