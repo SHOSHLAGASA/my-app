@@ -1,5 +1,5 @@
  body {
-    background-image: url("/src/images/music.JPG");
+    /* background-image: url("/src/images/music.JPG"); */
 
  } 
   
@@ -20,10 +20,39 @@ header {
     transition:0.6s; 
      padding: 40px 100px;
     padding: 5px 100px;
-background: beige;
+    /* background-color: aliceblue; */
 
     
 }
+
+ul.pages li {
+display: inline;
+list-style-type: none;
+margin: 0;
+/* margin-left: 1rem; */
+font-size: 1.4rem;
+font-weight: 500;
+display: flex;
+justify-content:center;
+color: #000;
+}
+
+ul.pages li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  margin-left: 1200%;
+  margin-top: 20%;
+  color: #000;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  color: #000;
+  }
 
 .Box {
     border-radius: 2px;

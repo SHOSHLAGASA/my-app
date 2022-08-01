@@ -1,7 +1,9 @@
 // import React, {useState} from 'react'
 import Header from './components/header'
 import Main from './components/main'
-import Axios from "axios";
+import CheckOut from './components/views/CheckOut'
+import Results from './components/views/Results'
+import Home from './components/views/Home'
 import './App.css';
 
 
@@ -13,7 +15,9 @@ function App() {
     <div>
       <Header title="Tickets to Shtetl Band"/>
       <Main />
-      <Axios />
+      <CheckOut />
+            <Results/>
+            <Home/>
     </div>
   );
 }
